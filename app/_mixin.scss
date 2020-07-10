@@ -1,0 +1,8 @@
+@mixin style-line{
+  content: "";
+  width: 10px;
+  height: 2px;
+  background:$p-style-line-color ;
+  position: absolute;
+  bottom: 50%;
+}
