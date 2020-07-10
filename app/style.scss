@@ -315,16 +315,24 @@ section.subscribe{
   background: $s-bg;
   padding:60px 0 90px;
   div.container{
-    padding: 115px 50px 0;
+    padding: 115px 15px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     div.item{
-
+      margin-bottom: 55px;
+      background-color: #ffffff;
       color: $s-color;
-      padding: 30px 20px ;
-      //margin: 0 60px 0;
-      width: 270px;
+      box-sizing: border-box;
+      padding: 30px 40px ;
+      width: 379px;
+      height: 490px;
+      &:nth-child(3n+2){
+        padding-top: 80px;
+        height: 570px;
+        margin-top: -40px;
+      }
+
       div.name{
         display: flex;
         margin: 25px 0;
@@ -400,7 +408,7 @@ section.portfolio{
   border-bottom: 1px solid $pf-underscore-bg;
   div.container{
     div.head{
-      margin-bottom: 72px;
+      margin-bottom: 52px;
       color: $pf-title-color;
       div.title{
         h2{
@@ -409,6 +417,7 @@ section.portfolio{
       }
       div.mini-title{
         p{
+          margin-top: 20px;
           width: 50%;
         }
       }
@@ -481,12 +490,14 @@ section.services{
     div.head{
       color:$s-items-color;
       div.title{
+        padding-left: 20px;
         h2{
-          font-size: 28px;
-          margin-bottom: 30px;
+          font-size: 30px;
+          margin-bottom: 15px;
         }
       }
       div.mini-title{
+        padding-left: 20px;
         width: 45%;
         margin-bottom: 50px;
         color: $s-mini-color;
@@ -538,6 +549,7 @@ section.services{
 
 //------------------------CONTACT START-------------------------------
 section.contact{
+  padding-top: 70px;
   div.container{
     div.wrap{
       display: flex;
