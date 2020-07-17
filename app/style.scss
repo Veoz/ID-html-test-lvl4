@@ -11,7 +11,7 @@ header.screen{
     right: 0;
     left: 0;
     height: 2px;
-    background-color: $h-hr-color;
+    background-color: $light-black;
     position: absolute;
     top: 100px;
   }
@@ -30,7 +30,7 @@ header.screen{
       div.logo{
         margin: 33px 32px 32px 0;
         a{
-          color: $h-logo-color;
+          color: $light-gray;
           font-size: 38px;
           text-decoration: none;
         }
@@ -50,7 +50,7 @@ header.screen{
             }
             a{
               text-decoration: none;
-              color: $h-nav-color;
+              color: $white;
               font-weight: 600;
               text-transform: uppercase;
               font-size: 13px;
@@ -66,7 +66,7 @@ header.screen{
         p.mini{
           font-size: 38px;
           margin: 20px 20px 20px 0;
-          color: $h-mini-title-color;
+          color: $light-gray;
         }
       }
       div.main-title{
@@ -83,7 +83,7 @@ header.screen{
           justify-content: flex-start;
           max-width: 442px;
           small{
-            color: $h-central-exposition-color;
+            color: $white;
             font-size: 14px;
             padding-top: 2px;
           }
@@ -92,13 +92,13 @@ header.screen{
           margin: 42px 0 0;
           width: 135px;
           height: 48px;
-          border: 1px solid $h-central-exposition-color;
+          border: 1px solid $white;
           display: flex;
           justify-content: center;
           &:hover{
-            background: $h-central-exposition-color;
+            background: $white;
             a{
-              color: $h-hover-link-color;
+              color: $light-black;
             }
           }
           a{
@@ -107,7 +107,7 @@ header.screen{
             text-decoration: none;
             font-size: 13px;
             font-weight: 700;
-            color: $h-central-exposition-color;
+            color: $white;
           }
         }
       }
@@ -132,7 +132,7 @@ section.about{
           h2{
             font-size: 30px;
             margin-bottom: 25px;
-            color: $a-main-color;
+            color: $gray;
             &.mid{
               margin-top: 47px;
             }
@@ -141,7 +141,7 @@ section.about{
         div.description{
 
             font-size: 15px;
-          color: $a-main-color;
+          color: $gray;
         }
         img{
           width: 360px;
@@ -165,7 +165,7 @@ section.about{
 
 //------------------------WE COOL START------------------------------
 section.we-cool{
-  background: $w-main-bg;
+  background: $dark-white;
   div.container{
     display: flex;
     justify-content: space-between;
@@ -185,20 +185,20 @@ section.we-cool{
           margin-top: 24px;
           height: 48px;
           width: 133px;
-          border: 1px solid $w-link-bg;
-          background: $w-link-bg;
+          border: 1px solid $gray;
+          background: $gray;
           display: flex;
           justify-content: center;
           &:hover{
-            background: $w-link-bg-hover;
-            border: 1px solid $w-link-bg-hover;
+            background: $mint;
+            border: 1px solid $mint;
           }
 
           a{
             margin: auto;
             text-decoration: none;
             text-transform: uppercase;
-            color: $w-link-color;
+            color: $white;
             font-weight: 700;
             font-size: 13px;
 
@@ -209,19 +209,19 @@ section.we-cool{
     div.choice-area{
       width: 450px;
       div.item{
-        color: $w-item-color;
+        color: $gray;
         width: 457px;
         margin-bottom: 5px;
-        border-bottom: 1px solid $w-item-underscore-color;
+        border-bottom: 1px solid #ededed;
         height: 100px;
         &:hover{
-          color: $w-item-hover-color;
+          color: #999caa;
         }
         &.active{
           box-sizing: border-box;
           padding: 32px 30px;
-          background: $w-active-bg;
-          color: $w-active-color;
+          background: $mint;
+          color: $white;
           height: 184px;
         }
         h2{
@@ -243,7 +243,7 @@ section.latest{
   div.container{
     div.title-m{
       margin-left: 12px;
-      color: $p-title-color;
+      color: $gray;
       margin-top: 100px;
       h2{
         font-size: 30px;
@@ -264,7 +264,7 @@ section.latest{
           height: 240px;
         }
         div.text{
-          color: $p-title-color;
+          color: $gray;
           display: flex;
           margin-top: 18px;
           div.title{
@@ -283,7 +283,7 @@ section.latest{
         div.short-title{
           p{
             margin-top: 18px;
-            color: $p-title-color;
+            color: $gray;
           }
         }
         div.link{
@@ -293,10 +293,10 @@ section.latest{
             text-transform: uppercase;
             font-size: 13px;
             font-weight: 600;
-            color:$p-title-color;
+            color:$gray;
             position: relative;
             &:hover{
-              color:$p-title-color-hover;
+              color:$dark-gray;
             }
             &:after{
               @include style-line;
@@ -312,7 +312,7 @@ section.latest{
 
 //------------------------SUBSCRIBE START-----------------------------
 section.subscribe{
-  background: $s-bg;
+  background: $dark-white;
   padding:60px 0 90px;
   div.container{
     padding: 115px 15px 0;
@@ -322,7 +322,7 @@ section.subscribe{
     div.item{
       margin-bottom: 55px;
       background-color: #ffffff;
-      color: $s-color;
+      color: $gray;
       box-sizing: border-box;
       padding: 30px 40px ;
       width: 379px;
@@ -351,7 +351,7 @@ section.subscribe{
               content:'- $';
               font-size: 14px;
               margin-right: 5px;
-              color: $s-dollar-color;
+              color: $gray;
             }
           }
         }
@@ -377,13 +377,13 @@ section.subscribe{
         margin: 50px 0 0;
         width: 131px;
         height: 50px;
-        background: $s-item-linc-bg;
+        background: #f3f4f5;;
         display: flex;
         justify-content: center;
         &:hover{
-          background: $s-link-bg-hover;
+          background: $mint;
           a{
-            color: $s-bg;
+            color: $dark-white;
           }
         }
         a{
@@ -392,7 +392,7 @@ section.subscribe{
           text-transform: uppercase;
           font-size: 13px;
           font-weight: 700;
-          color: $s-item-link-color;
+          color: $gray;
 
         }
       }
@@ -405,11 +405,11 @@ section.subscribe{
 section.portfolio{
   margin-top: 80px;
   padding:70px 0 50px;
-  border-bottom: 1px solid $pf-underscore-bg;
+  border-bottom: 1px solid #edf0f2;
   div.container{
     div.head{
       margin-bottom: 52px;
-      color: $pf-title-color;
+      color: $gray;
       div.title{
         h2{
           font-size: 28px;
@@ -484,11 +484,11 @@ section.clients{
 
 //------------------------SERVICES START------------------------------
 section.services{
-  background: $s-section-bg;
+  background: $dark-white;
   padding: 100px 0 170px;
   div.container{
     div.head{
-      color:$s-items-color;
+      color:$gray;
       div.title{
         padding-left: 20px;
         h2{
@@ -500,7 +500,7 @@ section.services{
         padding-left: 20px;
         width: 45%;
         margin-bottom: 50px;
-        color: $s-mini-color;
+        color: $light-gray;
       }
     }
     div.items-wrap{
@@ -514,16 +514,16 @@ section.services{
         padding: 40px;
         display: flex;
         flex-direction: column;
-        color:$s-items-color;
-        background: $s-item-bg;
+        color:$gray;
+        background: $white;
         &:hover{
           img{
             display: none
           }
         }
         &.active{
-        background: $s-active-item-bg;
-          color: $s-active-item-color;
+        background: $mint;
+          color: $white;
         }
         img{
 
@@ -556,7 +556,7 @@ section.contact{
       justify-content: space-between;
       margin-right: -20px;
       div.item{
-        color:$c-color;
+        color:$gray;
         max-width: 33%;
         padding:0 20px 20px 0;
         div.title-wrap{
@@ -573,13 +573,13 @@ section.contact{
             p{
               text-transform: uppercase;
               font-size: 13px;
-              color: $c-mini-color;
+              color: $light-gray;
 
             }
           }
         }
         div.text{
-          color: $c-mini-color;
+          color: $light-gray;
         }
         div.contact-info{
           margin-top: 10px;
@@ -593,7 +593,7 @@ section.contact{
             }
             p{
               font-size: 14px;
-              color: $c-mini-color;
+              color: $light-gray;
             }
           }
         }
@@ -630,10 +630,10 @@ footer.list{
         li{
           list-style: none;
           padding:17px 0 0;
-          color: $f-color;
+          color: $gray;
           font-weight: 500;
           &:hover{
-            color:$f-color-hover ;
+            color:$dark-gray ;
           }
 
         }
