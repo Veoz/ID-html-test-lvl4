@@ -4,8 +4,8 @@
 @import "media-map";
 
 //------------------------HEADER START-------------------------------
-header.screen{
-  &:before{
+header.screen {
+  &:before {
     content: '';
     min-width: 1200px;
     right: 0;
@@ -19,36 +19,43 @@ header.screen{
   background-image: url("/img/1920x1080/01.jpg");
   background-size: cover;
   min-height: 1077px;
- min-width: 1200px;
-  div.container{
-    nav.head{
+  min-width: 1200px;
+
+  div.container {
+    nav.head {
       position: relative;
       height: 96px;
 
       display: flex;
       justify-content: space-between;
-      div.logo{
+
+      div.logo {
         margin: 33px 32px 32px 0;
-        a{
+
+        a {
           color: $light-gray;
           font-size: 38px;
           text-decoration: none;
         }
       }
-      div.nav{
+
+      div.nav {
         max-width: 50%;
         margin-top: 23px;
-        ul.head-menu{
+
+        ul.head-menu {
           display: flex;
           flex-wrap: wrap;
 
-          li{
+          li {
             list-style: none;
-            margin:0 0 30px 38px;
-            &:first-child{
-              margin:0 0 30px 0;
+            margin: 0 0 30px 38px;
+
+            &:first-child {
+              margin: 0 0 30px 0;
             }
-            a{
+
+            a {
               text-decoration: none;
               color: $white;
               font-weight: 600;
@@ -60,48 +67,56 @@ header.screen{
       }
     }
   }
-  div.container{
-    div.content{
-      div.mini-title{
-        p.mini{
+
+  div.container {
+    div.content {
+      div.mini-title {
+        p.mini {
           font-size: 38px;
           margin: 20px 20px 20px 0;
           color: $light-gray;
         }
       }
-      div.main-title{
-        div.title{
-          h1{
+
+      div.main-title {
+        div.title {
+          h1 {
             margin: 303px 0 49px;
             font-size: 80px;
             text-transform: uppercase;
             color: #ffffff;
           }
         }
-        div.title-item{
+
+        div.title-item {
           display: flex;
           justify-content: flex-start;
           max-width: 442px;
-          small{
+
+          small {
             color: $white;
             font-size: 14px;
             padding-top: 2px;
           }
         }
-        div.title-link{
+
+        div.title-link {
           margin: 42px 0 0;
           width: 135px;
           height: 48px;
           border: 1px solid $white;
           display: flex;
           justify-content: center;
-          &:hover{
+
+          &:hover {
             background: $white;
-            a{
+
+            a {
               color: $light-black;
             }
           }
-          a{
+
+          a {
             margin: auto;
             text-transform: uppercase;
             text-decoration: none;
@@ -114,46 +129,57 @@ header.screen{
     }
   }
 }
+
 //------------------------HEADER END---------------------------------
 
 //------------------------ABOUT START--------------------------------
-section.about{
- padding-bottom: 77px;
-  div.container{
-    div.portfolio{
+section.about {
+  padding-bottom: 77px;
+
+  div.container {
+    div.portfolio {
       display: flex;
       margin-top: 100px;
-      div.item{
+
+      div.item {
         margin-right: 25px;
-        div.title, div.description{
+
+        div.title, div.description {
           width: 365px;
         }
-        div.title{
-          h2{
+
+        div.title {
+          h2 {
             font-size: 30px;
             margin-bottom: 25px;
             color: $gray;
-            &.mid{
+
+            &.mid {
               margin-top: 47px;
             }
           }
         }
-        div.description{
 
-            font-size: 15px;
+        div.description {
+
+          font-size: 15px;
           color: $gray;
         }
-        img{
+
+        img {
           width: 360px;
           height: 360px;
           margin: 20px 0;
-          &.left{
+
+          &.left {
             margin-top: 61px;
           }
-          &.mid{
+
+          &.mid {
             margin-top: -13px;
           }
-          &.right{
+
+          &.right {
             margin: 17px 0;
           }
         }
@@ -161,27 +187,34 @@ section.about{
     }
   }
 }
+
 //------------------------ABOUT END----------------------------------
 
 //------------------------WE COOL START------------------------------
-section.we-cool{
+section.we-cool {
   background: $dark-white;
-  div.container{
+
+  div.container {
     display: flex;
     justify-content: space-between;
     margin-top: 85px;
-    div.textarea{
+
+    div.textarea {
       margin-top: 54px;
-      div.title{
+
+      div.title {
         width: 450px;
-        h2{
+
+        h2 {
           font-size: 32px;
-          padding-bottom : 30px;
+          padding-bottom: 30px;
         }
-        p{
+
+        p {
           font-size: 15px;
         }
-        div.a{
+
+        div.a {
           margin-top: 24px;
           height: 48px;
           width: 133px;
@@ -189,12 +222,13 @@ section.we-cool{
           background: $gray;
           display: flex;
           justify-content: center;
-          &:hover{
+
+          &:hover {
             background: $mint;
             border: 1px solid $mint;
           }
 
-          a{
+          a {
             margin: auto;
             text-decoration: none;
             text-transform: uppercase;
@@ -206,28 +240,34 @@ section.we-cool{
         }
       }
     }
-    div.choice-area{
+
+    div.choice-area {
       width: 450px;
-      div.item{
+
+      div.item {
         color: $gray;
         width: 457px;
         margin-bottom: 5px;
         border-bottom: 1px solid #ededed;
         height: 100px;
-        &:hover{
+
+        &:hover {
           color: #999caa;
         }
-        &.active{
+
+        &.active {
           box-sizing: border-box;
           padding: 32px 30px;
           background: $mint;
           color: $white;
           height: 184px;
         }
-        h2{
+
+        h2 {
           font-size: 22px;
           padding: 42px 30px;
-          &.active{
+
+          &.active {
             padding: 0 2px 25px;
           }
         }
@@ -235,70 +275,87 @@ section.we-cool{
     }
   }
 }
+
 //------------------------WE COOL END--------------------------------
 
 //------------------------LATEST START-------------------------------
-section.latest{
-  padding: 80px 0 100px ;
-  div.container{
-    div.title-m{
+section.latest {
+  padding: 80px 0 100px;
+
+  div.container {
+    div.title-m {
       margin-left: 12px;
       color: $gray;
       margin-top: 100px;
-      h2{
+
+      h2 {
         font-size: 30px;
       }
-      p{
+
+      p {
         margin: 25px 0 0;
         width: 600px;
       }
     }
-    div.prod{
+
+    div.prod {
       margin-top: 50px;
       display: flex;
       justify-content: space-around;
-      div.item{
+
+      div.item {
         margin-left: 30px;
-        img{
+
+        img {
           width: 360px;
           height: 240px;
         }
-        div.text{
+
+        div.text {
           color: $gray;
           display: flex;
           margin-top: 18px;
-          div.title{
+
+          div.title {
             margin-right: 20px;
-            h2{
+
+            h2 {
               font-size: 22px;
             }
           }
-          div.type{
+
+          div.type {
             text-transform: uppercase;
-            p{
+
+            p {
               font-size: 14px;
             }
           }
         }
-        div.short-title{
-          p{
+
+        div.short-title {
+          p {
             margin-top: 18px;
             color: $gray;
           }
         }
-        div.link{
+
+        div.link {
           margin-top: 10px;
-          a{
+
+          a {
             text-decoration: none;
             text-transform: uppercase;
             font-size: 13px;
             font-weight: 600;
-            color:$gray;
+            color: $gray;
             position: relative;
-            &:hover{
-              color:$dark-gray;
+
+            &:hover {
+              color: $dark-gray;
             }
-            &:after{
+
+            &:after {
               @include style-line;
               right: -15px;
             }
@@ -308,47 +365,54 @@ section.latest{
     }
   }
 }
+
 //------------------------LATEST END----------------------------------
 
 //------------------------SUBSCRIBE START-----------------------------
-section.subscribe{
+section.subscribe {
   background: $dark-white;
-  padding:60px 0 90px;
-  div.container{
+  padding: 60px 0 90px;
+
+  div.container {
     padding: 115px 15px 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    div.item{
+
+    div.item {
       margin-bottom: 55px;
       background-color: #ffffff;
       color: $gray;
       box-sizing: border-box;
-      padding: 30px 40px ;
+      padding: 30px 40px;
       width: 379px;
       height: 490px;
-      &:nth-child(3n+2){
+
+      &:nth-child(3n+2) {
         padding-top: 80px;
         height: 570px;
         margin-top: -40px;
       }
 
-      div.name{
+      div.name {
         display: flex;
         margin: 25px 0;
-        div.title{
-          p{
+
+        div.title {
+          p {
             font-size: 22px;
             font-weight: 700;
           }
         }
-        div.price{
-          p{
+
+        div.price {
+          p {
             margin-left: 5px;
             font-size: 22px;
             font-weight: 700;
-            &:before{
-              content:'- $';
+
+            &:before {
+              content: '- $';
               font-size: 14px;
               margin-right: 5px;
               color: $gray;
@@ -356,37 +420,44 @@ section.subscribe{
           }
         }
       }
-      div.small-title{
-        p{
+
+      div.small-title {
+        p {
           margin-bottom: 25px;
         }
       }
-      div.services{
-        p{
+
+      div.services {
+        p {
           position: relative;
           font-size: 15px;
           padding: 0 0 1px 25px;
           margin: 0 0 1px 10px;
-          &:before{
+
+          &:before {
             @include style-line;
             left: -10px;
           }
         }
       }
-      div.link{
+
+      div.link {
         margin: 50px 0 0;
         width: 131px;
         height: 50px;
         background: #f3f4f5;;
         display: flex;
         justify-content: center;
-        &:hover{
+
+        &:hover {
           background: $mint;
-          a{
+
+          a {
             color: $dark-white;
           }
         }
-        a{
+
+        a {
           margin: auto;
           text-decoration: none;
           text-transform: uppercase;
@@ -399,60 +470,71 @@ section.subscribe{
     }
   }
 }
+
 //------------------------SUBSCRIBE END-------------------------------
 
 //------------------------PORTFOLIO START-----------------------------
-section.portfolio{
+section.portfolio {
   margin-top: 80px;
-  padding:70px 0 50px;
+  padding: 70px 0 50px;
   border-bottom: 1px solid #edf0f2;
-  div.container{
-    div.head{
+
+  div.container {
+    div.head {
       margin-bottom: 52px;
       color: $gray;
-      div.title{
-        h2{
+
+      div.title {
+        h2 {
           font-size: 28px;
         }
       }
-      div.mini-title{
-        p{
+
+      div.mini-title {
+        p {
           margin-top: 20px;
           width: 50%;
         }
       }
     }
-    div.img-arr{
-      div.first{
-        img{
-          &:hover{
+
+    div.img-arr {
+      div.first {
+        img {
+          &:hover {
             filter: brightness(30%);
           }
         }
+
         display: flex;
         justify-content: space-between;
-        div.item-1{
-          img{
+
+        div.item-1 {
+          img {
             width: 750px;
             height: 370px;
           }
         }
-        div.item-2{
-          img{
+
+        div.item-2 {
+          img {
             width: 360px;
             height: 370px;
           }
         }
       }
-      div.second{
+
+      div.second {
         margin-top: 27px;
         display: flex;
         justify-content: space-between;
-        div.item3{
-          img{
+
+        div.item3 {
+          img {
             width: 360px;
             height: 270px;
-            &:hover{
+
+            &:hover {
               filter: brightness(30%);
             }
           }
@@ -461,18 +543,22 @@ section.portfolio{
     }
   }
 }
+
 //------------------------PORTFOLIO END-------------------------------
 
 //------------------------CLIENTS START-------------------------------
-section.clients{
-  div.container{
+section.clients {
+  div.container {
     padding: 100px 0 100px;
-    div.items{
+
+    div.items {
       display: flex;
       justify-content: space-around;
-      img{
+
+      img {
         width: 195px;
-        &:hover{
+
+        &:hover {
           opacity: 0.3;
         }
 
@@ -480,64 +566,76 @@ section.clients{
     }
   }
 }
+
 //------------------------CLIENTS END---------------------------------
 
 //------------------------SERVICES START------------------------------
-section.services{
+section.services {
   background: $dark-white;
   padding: 100px 0 170px;
-  div.container{
-    div.head{
-      color:$gray;
-      div.title{
+
+  div.container {
+    div.head {
+      color: $gray;
+
+      div.title {
         padding-left: 20px;
-        h2{
+
+        h2 {
           font-size: 30px;
           margin-bottom: 15px;
         }
       }
-      div.mini-title{
+
+      div.mini-title {
         padding-left: 20px;
         width: 45%;
         margin-bottom: 50px;
         color: $light-gray;
       }
     }
-    div.items-wrap{
+
+    div.items-wrap {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      div.item{
+
+      div.item {
         box-sizing: border-box;
         width: 370px;
         height: 250px;
         padding: 40px;
         display: flex;
         flex-direction: column;
-        color:$gray;
+        color: $gray;
         background: $white;
-        &:hover{
-          img{
+
+        &:hover {
+          img {
             display: none
           }
         }
-        &.active{
-        background: $mint;
+
+        &.active {
+          background: $mint;
           color: $white;
         }
-        img{
+
+        img {
 
           max-width: 25px;
           max-height: 40px;
           margin-bottom: 40px;
-          &.onn{
+
+          &.onn {
             width: 20px;
             height: 35px;
           }
         }
-        div.title{
-          h2{
-            font-size:22px;
+
+        div.title {
+          h2 {
+            font-size: 22px;
             margin-bottom: 20px;
           }
         }
@@ -545,32 +643,38 @@ section.services{
     }
   }
 }
+
 //------------------------SERVICES END--------------------------------
 
 //------------------------CONTACT START-------------------------------
-section.contact{
+section.contact {
   padding-top: 70px;
-  div.container{
-    div.wrap{
+
+  div.container {
+    div.wrap {
       display: flex;
       justify-content: space-between;
       margin-right: -20px;
-      div.item{
-        color:$gray;
+
+      div.item {
+        color: $gray;
         max-width: 33%;
-        padding:0 20px 20px 0;
-        div.title-wrap{
+        padding: 0 20px 20px 0;
+
+        div.title-wrap {
           display: flex;
 
           margin-bottom: 20px;
-          div.titel{
-            h2{
+
+          div.titel {
+            h2 {
               margin: 0 20px 0 0;
               font-size: 22px;
             }
           }
-          div.type{
-            p{
+
+          div.type {
+            p {
               text-transform: uppercase;
               font-size: 13px;
               color: $light-gray;
@@ -578,20 +682,25 @@ section.contact{
             }
           }
         }
-        div.text{
+
+        div.text {
           color: $light-gray;
         }
-        div.contact-info{
+
+        div.contact-info {
           margin-top: 10px;
+
           div.tel,
-          div.mail{
+          div.mail {
             margin-top: 4px;
             display: flex;
-            img{
+
+            img {
               height: 12px;
               padding: 4px 5px 0 0;
             }
-            p{
+
+            p {
               font-size: 14px;
               color: $light-gray;
             }
@@ -601,39 +710,47 @@ section.contact{
     }
   }
 }
+
 //------------------------CONTACT END---------------------------------
 
 //------------------------MAP START-----------------------------------
-section.map{
+section.map {
   margin-top: 70px;
-  iframe{
+
+  iframe {
     width: 100%;
     height: 300px;
   }
 }
+
 //------------------------MAP END-------------------------------------
 
 //------------------------FOOTER START--------------------------------
-footer.list{
-  div.container{
+footer.list {
+  div.container {
     display: flex;
+
     div.first-list,
     div.second-list,
-    div.last-list{
-      margin:30px 0 30px;
-      ul{
+    div.last-list {
+      margin: 30px 0 30px;
 
-        padding:17px 140px 0 0;
-        &.second-list{
-          padding:17px 130px 0 0;
+      ul {
+
+        padding: 17px 140px 0 0;
+
+        &.second-list {
+          padding: 17px 130px 0 0;
         }
-        li{
+
+        li {
           list-style: none;
-          padding:17px 0 0;
+          padding: 17px 0 0;
           color: $gray;
           font-weight: 500;
-          &:hover{
-            color:$dark-gray ;
+
+          &:hover {
+            color: $dark-gray;
           }
 
         }
@@ -641,4 +758,5 @@ footer.list{
     }
   }
 }
+
 //------------------------FOOTER END----------------------------------
